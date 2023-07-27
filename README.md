@@ -3,8 +3,9 @@ Este repositorio contiene dos métodos para calcular el Índice de Complejidad E
 
 ## Contenido
 - [ice.R](/ice.R). En este R Script se encuentra lo siguiente:
-  1. El código para calcular la matriz de Ventajas Comparativas Reveladas binaria (RCA, en inglés).[^1]
+  1. El código para calcular la matriz de Ventajas Comparativas Reveladas binaria (RCA, por sus siglas en inglés).[^1]
   2. El código para calcular el ICE por dos métodos: 1) el método de reflexiones[^1] y 2) el método matricial[^2].
+- [ice.do](/ice.do). En este Do File solo se encuentra el código para calcular el RCA y el método de reflexiones. Tener en cuenta que se utiliza el entorno MATA.
      
 Nota: cualquier sugerencia de mejora puedes enviarme un correo a dffjs98@gmail.com
 
