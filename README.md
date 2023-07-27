@@ -1,5 +1,5 @@
 # Índices de Complejidad Económica
-Este repositorio contiene dos métodos para calcular el Índice de Complejidad Económica (ICE). El ICE fue formulado, inicialmente, como un indicador de la sofisticación de los productos exportados por un país. En los últimos años, el ICE también se ha utilizado para medir la sofisticación de las industrias o patentes dentro de una ciudad o región.
+Este repositorio contiene dos métodos para calcular el Índice de Complejidad Económica (ICE). El ICE es un indicador de la sofisticación de la estructura productiva de una ciudad, región o país.
 
 ## Contenido
 - [ice.R](/ice.R). En este R Script se encuentra lo siguiente:
