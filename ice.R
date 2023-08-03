@@ -42,23 +42,27 @@ ice <- eigen(mcc)$vectors[,2] %>%
 print("El vector 'ice' es el Índice de Complejidad Económica")
 
 # Método de Reflexiones
+
+kc0 <- rowSums(rca) # vector diversidad
+kp0 <- colSums(rca) # vector ubicuidad
+
 max <- 20 # número de iteraciones
 
 for (i in 1:max){
   
   if (i == 1){
     
-    kc <- (1/kc0)*rowSums(t(t(Mcp)*kp0))
+    kc <- (1/kc0)*rowSums(t(t(rca)*kp0))
     
-    kp <- (1/kp0)*colSums(Mcp*kc0)
+    kp <- (1/kp0)*colSums(rca*kc0)
     
   } else {
     
     assign("kc_i_1", kc)
     
-    kc <- (1/kc0)*rowSums(t(t(Mcp)*kp))
+    kc <- (1/kc0)*rowSums(t(t(rca)*kp))
     
-    kp <- (1/kp0)*colSums(Mcp*get("kc_i_1"))
+    kp <- (1/kp0)*colSums(rca*get("kc_i_1"))
     
   }
   
