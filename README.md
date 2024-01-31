@@ -1,7 +1,7 @@
 # Economic Complexity Indices
 This repository contains two methods to calculate the Economic Complexity Index (ICE). The ICE is an indicator of the sophistication of the productive structure of a city, region or country.
 
-## Contenido
+## Content
 - [ice.R](/ice.R). In this R Script you will find the following:
    1. The code to calculate the binary Revealed Comparative Advantage (RCA) matrix.[^1]
    2. The code to calculate the ICE by two methods: 1) the reflections method[^1] and 2) the matrix method[^2].
